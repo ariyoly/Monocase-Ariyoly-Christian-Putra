@@ -13,9 +13,9 @@ export default function Home() {
           <div className="col-span-2 px-6 lg:px-0 lg:pt-4">
             <div className="relative mx-auto text-center lg:text-left flex flex-col items-center lg:items-start">
               <div className="absolute w-28 left-0 -top-20 hidden lg:block">
-                <img src="\logo-monocase.png" className="w-14"/>
+                {/* <img src="\logo-monocase.png" className="w-14"/> */}
               </div>
-              <h1 className="relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5x1 md:text-6xl lg:text-7xl">Your Image on a <span className="bg-blue-500 px-2 text-white">Custom</span> Phone Case</h1>
+              <h1 className="relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5x1 md:text-6xl lg:text-7xl">Your Image on a <span className="bg-violet-600 px-2 text-white rounded-l">Custom</span> Phone Case</h1>
               <p className="mt-8 text-lg lg:pr-10 max-w-prose text-center lg:text-left text-balance md:text-wrap">Capture your favorite memories with your own, <span className="font-semibold">one-of-one</span> phone case. Monocase allows you to protect your memories, not just your phone case.</p>
               
 
@@ -50,11 +50,11 @@ export default function Home() {
 
                 <div className="flex flex-col justify-between items-center sm:items-start">
                   <div className="flex gap-0.5">
-                    <Star className="h-4 w-4 text-green-600 fill-green-600" />
-                    <Star className="h-4 w-4 text-green-600 fill-green-600" />
-                    <Star className="h-4 w-4 text-green-600 fill-green-600" />
-                    <Star className="h-4 w-4 text-green-600 fill-green-600" />
-                    <Star className="h-4 w-4 text-green-600 fill-green-600" />
+                    <Star className="h-4 w-4 text-violet-500 fill-violet-500" />
+                    <Star className="h-4 w-4 text-violet-500 fill-violet-500" />
+                    <Star className="h-4 w-4 text-violet-500 fill-violet-500" />
+                    <Star className="h-4 w-4 text-violet-500 fill-violet-500" />
+                    <Star className="h-4 w-4 text-violet-500 fill-violet-500" />
                   </div>
 
 
