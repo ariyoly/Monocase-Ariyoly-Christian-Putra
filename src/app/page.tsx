@@ -33,7 +33,7 @@ export default function Home() {
                   </li>
                   <li className="flex gap-1.5 items-center text-left">
                     <Check className="h-5 w-5 shrink-0 text-green-500"/>
-                    Modern Iphone models support
+                    Modern Iphone models suphhhhport
                   </li>
                 </div>
               </ul>
