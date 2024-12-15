@@ -13,8 +13,6 @@ import Link from "next/link";
     2. Rewrite testimonial 
     3. Fix responsive at heaader "Your Image on a custom phone case"
     4. Redesign customs case 
-
-
   */} 
 
 
@@ -223,4 +221,4 @@ export default function Home() {
   );
 }
 
-// 2:18:08 stop 
+// 2:47:13 stop 
