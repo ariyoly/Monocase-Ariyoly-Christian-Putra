@@ -1,3 +1,4 @@
+// Import
 import { Icons } from "@/components/icon";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Phone from "@/components/Phone";
@@ -5,7 +6,10 @@ import { Reviews } from "@/components/Review";
 import { buttonVariants } from "@/components/ui/button";
 import { ArrowRight, Check, Icon, Star } from "lucide-react";
 import Link from "next/link";
- 
+
+
+// ---
+
 
 // Noted : 
  {/* 
@@ -16,10 +20,16 @@ import Link from "next/link";
   */} 
 
 
+
+
+  
+// Main code 
+// Section header 
 export default function Home() {
   return (
     <div className="bg-slate-50">
 
+{/* Header */}
       <section>
         <MaxWidthWrapper className="pb-24 pt-10 lg:grid lg:grid-cols-3 sm:pb-32 lg:gap-x-0 xl:gap-x-8 lg:pt-24 xl:pt-32 lg:pb-52">
           <div className="col-span-2 px-6 lg:px-0 lg:pt-4">
@@ -29,9 +39,9 @@ export default function Home() {
               </div>
               <h1 className="relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl">Your Image on a <span className="bg-violet-600 px-2 text-white rounded-l">Custom</span> Phone Case</h1>
               <p className="mt-8 text-lg lg:pr-10 max-w-prose text-center lg:text-left text-balance md:text-wrap">Capture your favorite memories with your own, <span className="font-semibold">one-of-one</span> phone case. Monocase allows you to protect your memories, not just your phone case.</p>
-              
+{/* End header */}
 
-
+{/* Branding case */}
               <ul className="mt-8 space-y-2 text-left font-medium flex flex-col items-center sm:items-start">
                 <div className="space-y-2">
                   <li className="flex gap-1.5 items-center text-left">
@@ -48,9 +58,11 @@ export default function Home() {
                   </li>
                 </div>
               </ul>
+{/* end branding */}
 
 
-
+{/* Section testimonial */}
+{/* Customer photo */}
               <div className="mt-12 flex flex-col sm:flex-row items-center sm:items-start gap-5">
                 <div className="flex -space-x-4">
                   <img className="inline-block h-10 w-10 rounded-full ring-2 ring-slate-100" src="\person-1.png" alt="user profile" />
@@ -59,9 +71,9 @@ export default function Home() {
                   <img className="inline-block h-10 w-10 rounded-full ring-2 ring-slate-100" src="\person-4.png" alt="user profile" />
                   <img className="inline-block object-cover h-10 w-10 rounded-full ring-2 ring-slate-100" src="\person-5.png" alt="user profile" />
                 </div>
+{/* End customer photo */}
 
-
-
+{/* Rated */}
                 <div className="flex flex-col justify-between items-center sm:items-start">
                   <div className="flex gap-0.5">
                     <Star className="h-4 w-4 text-violet-500 fill-violet-500" />
@@ -70,9 +82,6 @@ export default function Home() {
                     <Star className="h-4 w-4 text-violet-500 fill-violet-500" />
                     <Star className="h-4 w-4 text-violet-500 fill-violet-500" />
                   </div>
-
-
-
                   <p>
                     <span className="font-semibold">1.250</span> happy customers
                   </p>
@@ -80,9 +89,9 @@ export default function Home() {
               </div>
             </div>
           </div>
+{/* End rated */}
 
-
-
+{/* IMG Phone testimonial */}
           <div className="col-span-full lg:col-span-1 w-full flex justify-center px-8 sm:px-16 md:px-0 mt-32 lg:max-0: lg:mt-20 h-fit">
             <div className="relative md:max-w-xl">
               <img src="/your-image.png" className="absolute w-40 lg:w-52 left-56 -top-20 select-none hidden sm:block lg:hidden xl:block" />
@@ -92,10 +101,9 @@ export default function Home() {
           </div>
         </MaxWidthWrapper>
       </section>
-
-
+{/* End IMG phone testimonial */}
       
-      {/* {value proposition section} */}
+{/* {value proposition section} */}
       <section className="bg-slate-50">
         <MaxWidthWrapper className="flex flex-col items-center gap-16 sm:gap-32">
           <div className="flex flex-col lg:flex-row items-center gap-4 sm:gap-6">
@@ -105,8 +113,7 @@ export default function Home() {
             <img src="/Logo Monocase 2.png" className="w-24 order-0 lg:order-2"/>
           </div>
 
-
-          {/* first user */}
+{/* first user */}
           <div className="mx-auto grid max-w-2xl grid-cols-1 px-4 lg:mx-0 lg:max-w-none lg:grid-cols-2 gap-y-16">
             <div className="flex flex-auto flex-col gap-4 lg:pr-8 xl:pr-20">
               <div className="flex gap-0.5 mb-2">
@@ -131,9 +138,7 @@ export default function Home() {
               </div>
             </div>
 
-
-
-            {/* second user */}
+{/* second user */}
             <div className="flex flex-auto flex-col gap-4 lg:pr-8 xl:pr-20">
               <div className="flex gap-0.5 mb-2">
                 <Star className="h-5 w-5 text-violet-500 fill-violet-500"/>
